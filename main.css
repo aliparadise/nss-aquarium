@@ -1,0 +1,52 @@
+header {
+    border: 1px solid;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    background-color:darkcyan;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+main {
+    display: flex; 
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+sidebar {
+    background-color: darkturquoise;
+    margin: 30px;
+    width: 300px;
+}
+
+.content__fish-list {
+    background-color:#74992e;
+    height: 20em;
+    width: 65em;
+    margin: 30px;
+}
+
+.boxed__fish-list {
+    border: 1px solid white;
+    height: 15em;
+    width: 15em;
+    margin: 10px;
+  }
+
+.content__quote-list {
+    background-color: darkolivegreen;
+    height: 20em;
+    width: 65em;
+    margin: 30px;
+}
+
+.content__location-list {
+    background-color: darkslategrey;
+    height: 20em;
+    width: 65em;
+    margin: 30px;
+}
