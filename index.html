@@ -9,29 +9,119 @@
 </head>
 <body>
   <header>
+      <div><img class="logo" src="images/fishLogo.jpg" alt="fish logo"/></div>
+      <div class="headline">
       <h1>Martin's Marvelous Fish Aquarium</h1>
+      </div>
   </header>
     <main>
-        <article class="content">
-            <section class="content__fish-list">
-                Fish Card
-                <div class="boxed__fish-list">
-                    <!-- This text is enclosed in a box. -->
-                </div>
-                <div class="boxed__fish-list">
-                    <!-- This text is enclosed in a box. -->
-                </div>
-            </section>
-            <section class="content__quote-list">
-                Quote
-            </section>
-            <section class="content__location-list">
-                Location
-            </section>
-        </article>
-        <sidebar>
-            "Fish tips!"
-        </sidebar>
+        <div class="content content--left">
+            <!-- Fish List Component -->
+            <article class="fishList">
+              <section class="fish card">
+                  <div>
+                      <img class="fish__image" src="images/pufferFish.jpg"/>
+                  </div>
+                  <div class="fish__name">Penelope</div>
+                  <div class="fish__species">Pufferfish</div>
+                  <div class="fish__length">10 in</div>
+                  <div class="fish__location">Pacific Ocean</div>
+                  <div class="fish__diet">Plankton</div>
+                </section>
+                <section class="fish card">
+                    <div>
+                        <img class="fish__image" src="images/barracuda.jpg"/>
+                    </div>
+                    <div class="fish__name">Bronson</div>
+                    <div class="fish__species">Barracuda</div>
+                    <div class="fish__length">3 ft</div>
+                    <div class="fish__location">Brazil</div>
+                    <div class="fish__diet">Baby Back Ribs</div>
+                </section>
+                <section class="fish card">
+                    <div>
+                        <img class="fish__image" src="images/angelfish.jpg"/>
+                    </div>
+                    <div class="fish__name">Adora</div>
+                    <div class="fish__species">Angelfish</div>
+                    <div class="fish__length">6 in</div>
+                    <div class="fish__location">Atlantic Ocean</div>
+                    <div class="fish__diet">Aubergine</div>
+                  </section>
+                  <section class="fish card">
+                    <div>
+                        <img class="fish__image" src="images/kivver.jpg"/>
+                    </div>
+                    <div class="fish__name">Kamala</div>
+                    <div class="fish__species">Kivver</div>
+                    <div class="fish__length">5 in</div>
+                    <div class="fish__location">Knoxville</div>
+                    <div class="fish__diet">Kale</div>
+                  </section>
+                  <section class="fish card">
+                    <div>
+                        <img class="fish__image" src="images/mahiMahi.jpg"/>
+                    </div>
+                    <div class="fish__name">Moby</div>
+                    <div class="fish__species">Mahi-Mahi</div>
+                    <div class="fish__length">3 ft</div>
+                    <div class="fish__location">Mexico</div>
+                    <div class="fish__diet">Mussels</div>
+                  </section>
+                </article> 
+                <!-- Quotes component -->
+                <article class="quotesList">
+                  <section class="quote card">
+                    <div class="quote__text">"When you fish for love, bait with your heart, not your brain."</div>
+                    <div class="quote__author">- Mark Twain</div>
+                  </section>
+                  <section class="quote card">
+                    <div class="quote__text">"No human being, however great, or powerful, was ever as free as a fish."</div>
+                    <div class="quote__author">- John Ruskin</div>
+                  </section>
+                </article> 
+                <!-- locations component -->
+                <article class="locationsList">
+                  <section class="location card">
+                    <div>
+                        <img
+                          class="location__image" 
+                          src="images/greatBarrierReef2.jpg"
+                          alt="overhead picture of the Great Barrier Reef"
+                          />
+                    </div>
+                    <div class="location__name">Great Barrier Reef</div>
+                    <div class="location__url"></div>
+                    <a href="https://www.australia.com/en-us/places/cairns-and-surrounds/guide-to-the-great-barrier-reef.html">Australian Guide to the Great Barrier Reef</a>
+
+                    <div class="location__access">Access Difficulty: 5</div>
+                    <div class="location__desc">
+              Home to diverse marine life of the most vivid colours, the Great
+              Barrier Reef offers the opportunity for great adventure, both in
+              luxury and on a budget. Whether you explore the stunning
+              Whitsunday Islands, trek the ancient Daintree Rainforest or relax
+              on luxurious tropical islands such as Hayman and Lizard, a day on
+              the reef is all about the unforgettable nature that surrounds you.
+                    </div>
+                  </section>
+                </article>
+                    </div>
+            <!-- Tank tips component -->
+          <div class="content content--right">
+            <aside class="tankTips">
+                <h3>Tank Tips!</h3>
+                <section class="tip card">
+                    <h4 class="tip__title">How to Clean Tank Glass</h4>
+                    <div class="tip__text">This guide will help you achieve a shiny, clean tank!</div>
+                    <div class="tip__url">Read more <a href="https://www.ShinyTank.com">here!</a></div>
+                  </section>
+                <section class="tip card">
+            <h4 class="tip__title">Compatible Fish</h4>
+            <div class="tip__text">Avoid fish fights! Find fish that will get along in your tank.</div>
+            <div class="tip__url">Read more <a href="https://www.TrueFishMatch.com">here!</a></div>
+                </section>
+            </aside>
+        </div>
     </main>
-</body>
+  </body>
 </html>

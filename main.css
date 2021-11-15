@@ -1,52 +1,73 @@
 header {
-    border: 1px solid;
-    padding: 30px 0;
-    color: white;
-    text-align: center;
-    background-color:darkcyan;
-}
-
-h1 {
-    font-size: 48px;
-    margin: 0;
-}
-
-main {
-    display: flex; 
-    flex-wrap: wrap;
-    height: 500px;
-}
-
-sidebar {
-    background-color: darkturquoise;
-    margin: 30px;
-    width: 300px;
-}
-
-.content__fish-list {
-    background-color:#74992e;
-    height: 20em;
-    width: 65em;
-    margin: 30px;
-}
-
-.boxed__fish-list {
-    border: 1px solid white;
-    height: 15em;
-    width: 15em;
-    margin: 10px;
+    display: flex;
+    border: 1px solid blue;
   }
 
-.content__quote-list {
-    background-color: darkolivegreen;
-    height: 20em;
-    width: 65em;
-    margin: 30px;
-}
+  h1 {
+      font-size: 30px;
+      font-family: Helvetica;
+      color: #36486b
+  }
 
-.content__location-list {
-    background-color: darkslategrey;
-    height: 20em;
-    width: 65em;
-    margin: 30px;
-}
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+  }
+
+  .content {
+    border: 3px dotted green;
+  }
+
+  .content--left {
+    /* will take up 3 times as much space as a "1" */
+    flex: 3;
+    margin-right: 2.5em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content--right {
+    flex: 1
+  }
+
+  .fishList {
+    border: 3px solid forestgreen;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quotesList {
+    border: 3px solid goldenrod;
+    display: flex;
+  }
+
+  .locationsList {
+    border: 3px solid lightcoral;
+    display: flex;
+  }
+
+  .tankTips {
+    border: 3px solid dodgerblue;
+    height: 100vh;
+  }
+
+  .card {
+    padding: 1em;
+    margin: 0.5em;
+    border: 1px solid blue;
+  }
+
+  .fish__image {
+    height: 8em;
+    border: 1px solid blue;
+  }
+
+  .logo {
+    height: 8em;
+  }
+
+  .location__image {
+    height: 8em;
+  }
+
